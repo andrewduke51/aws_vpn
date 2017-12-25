@@ -1,7 +1,7 @@
 # Module to launch a full functioning l2tp vpn server using your vaulues
 
 module "vpn_server" {
-  source              = "https://github.com/andrewduke51/aws_modules"
+  source              = "github.com/andrewduke51/aws_modules//vpn_instance"
   subnet_id           = "${var.subnet_id}"
   key_name            = "${var.key_name}"
   instance_type       = "${var.instance_type}"
