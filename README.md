@@ -29,7 +29,8 @@ Now, whenever you make changes to \*.tf files, terraform format will automatical
 
 4: type terraform apply and provide the information for your aws environment
 
-5: ssh into your vpn server using the newly assigned public ip address if you want (make sure your aws security groups are allowing your ip address)
+5: ssh into your vpn server using the newly assigned public ip address if you want
+(make sure your aws security groups are allowing your ip public address. L2TP requires UDP ports 500, 1701 and 4500 and the IP-ESP protocol, which is IP protocol 50. You can also allow port 22,in case you want to connect using ssh to troubleshoot.
 
 6: checkout this website "http://www.vpngate.net/en/howto_l2tp.aspx" on how to connect your devices windows 10/mac osx /iphone/ Android
 
