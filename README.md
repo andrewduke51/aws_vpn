@@ -23,7 +23,7 @@ Now, whenever you make changes to \*.tf files, terraform format will automatical
 
 1: Clone this repository with "git clone git@github.com:andrewduke51/aws_vpn.git"
 
-2 : cd into cd aws_vpn/terraform/vpn-instance/
+2 : cd into aws_vpn/terraform/vpn-instance/
 
 3: type terraform init (terraform version 0.11.1)
 
