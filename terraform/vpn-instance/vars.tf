@@ -2,7 +2,7 @@ variable "default_region" {
   description = "default region"
 }
 
-variable "cred_path" {
+variable "aws_cred_path" {
   description = "your path here"
 }
 

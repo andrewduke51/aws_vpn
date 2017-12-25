@@ -11,7 +11,7 @@ module "vpn_server" {
   ip_sec_key          = "${var.ip_sec_key}"
   default_region      = "${var.default_region}"
   vpn_password        = "${var.vpn_password}"
-  cred_path           = "${var.cred_path}"
+  cred_path           = "${var.aws_cred_path}"
   env                 = "${var.env}"
   security_group_ids  = "${var.security_group_ids}"
   private_ssh_key     = "${var.private_ssh_key}"

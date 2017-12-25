@@ -1,0 +1,1 @@
+{"Modules":[{"Source":"github.com/andrewduke51/aws_modules//vpn_instance","Key":"1.vpn_server;github.com/andrewduke51/aws_modules//vpn_instance","Version":"","Dir":".terraform/modules/506ee34d6eda9406a4ff35becee3c6e8","Root":"vpn_instance"}]}
