@@ -5,5 +5,5 @@
 *terraform.tfstate
 *terraform.tfstate.backup
 authorized_keys.sh.tpl
-*vpn-instance/
+
 
