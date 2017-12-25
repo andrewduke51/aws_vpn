@@ -10,7 +10,7 @@ VPN_IP_EXTERNAL=`curl -s http://169.254.169.254/latest/meta-data/public-ipv4`
 # Swap out variables in IPSEC_CONF
 
 # Add ssh key
-/bin/echo "${local_ssh_key}" >> $AUTH_CONF
+/bin/echo "${public_ssh_key}" >> $AUTH_CONF
 chmod 400 /home/ubuntu/.ssh/id_rsa
 /usr/sbin/service ssh restart
 

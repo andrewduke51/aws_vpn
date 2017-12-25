@@ -3,7 +3,7 @@ data "template_file" "add_ssh_auth" {
   template = "${file("${path.module}/templates/authorized_keys.sh.tpl")}"
 
   vars {
-    local_ssh_key = "${var.local_ssh_key}"
+    public_ssh_key = "${var.public_ssh_key}"
   }
 }
 
@@ -89,6 +89,6 @@ resource "aws_instance" "vpn_instance" {
     os          = "ubuntu16"
     os_family   = "linux"
     servicename = "vpn"
-    tier        = "dmz"
+    tier        = "${var.env}"
   }
 }
