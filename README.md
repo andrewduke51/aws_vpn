@@ -8,7 +8,9 @@ download it for free https://www.terraform.io/
 
 1: Clone this repository with "git clone git@github.com:andrewduke51/aws_vpn.git"
 
+2 : cd into cd aws_vpn/terraform/vpn-instance/
 
+3: 
 
 #### Using Terraform Format Hook
 Run commands:
