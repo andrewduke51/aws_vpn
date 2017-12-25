@@ -29,7 +29,7 @@ Now, whenever you make changes to \*.tf files, terraform format will automatical
 
 4: type terraform apply and provide the information for your aws environment
 
-5: ssh into your vpn server using the newly assigned public ip address to check stuff out
+5: ssh into your vpn server using the newly assigned public ip address if you want (make sure your aws security groups are allowing your ip address)
 
 6: checkout this website "http://www.vpngate.net/en/howto_l2tp.aspx" on how to connect your devices windows 10/mac osx /iphone/ Android
 
@@ -39,7 +39,6 @@ Server IP: xx.xx.xx.xx
 IPsec PSK: shared_ipsec_key
 Username: <username>
 Password: <password>
-
 and all of them except the public IP was provided by you during step 4
 refresher :-)
 
