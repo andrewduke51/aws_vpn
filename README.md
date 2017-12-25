@@ -25,7 +25,7 @@ Now, whenever you make changes to \*.tf files, terraform format will automatical
 
 2 : cd into aws_vpn/terraform/vpn-instance/
 
-3: type terraform init (terraform version 0.11.1)
+3: type terraform init (terraform version 0.11.1 at this point)
 
 4: type terraform apply and provide the information for your aws environment
 
