@@ -4,6 +4,10 @@ Using this module anyone can setup a vpn server in less than 2 minutes using aws
 You just need an AWS account and terraform!
 download it for free https://www.terraform.io/
 
+# Instructions
+
+1: Clone this repository with "git clone "
+
 #### Using Terraform Format Hook
 Run commands:
 - `cp pre-commit-terraform-format.hook .git/hooks/pre-commit`
