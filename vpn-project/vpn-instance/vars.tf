@@ -7,7 +7,7 @@ variable "aws_cred_path" {
 }
 
 variable "path_to_private_key" {
-  description = "path to private key"
+  description = "(optional) you can do a touch /tmp/id adn then type /tmp/id to fill in something ...or path to private key"
 }
 
 variable "aws_access_keys_profile" {
@@ -44,10 +44,6 @@ variable "security_group_ids" {
 
 variable "public_ssh_key" {
   description = "the local ssh public key that goes on the instance"
-}
-
-variable "private_ssh_key" {
-  description = "(optional by uncomment this part in the module) private_key"
 }
 
 variable "ssh_private_key_destination_path" {
