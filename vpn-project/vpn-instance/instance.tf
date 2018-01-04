@@ -18,4 +18,5 @@ module "vpn_server" {
   profile             = "${var.aws_access_keys_profile}"
   ami                 = "${var.ami}"
   destination_path    = "${var.ssh_private_key_destination_path}"
+  email_address = "${var.email_address}"
 }
